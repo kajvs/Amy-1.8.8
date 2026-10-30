@@ -1,0 +1,106 @@
+public+synthetic org/bukkit/Bukkit/getOnlinePlayers()[Lorg/bukkit/entity/Player;
+public+synthetic org/bukkit/Server/getOnlinePlayers()[Lorg/bukkit/entity/Player;
+
+public+synthetic org/bukkit/entity/Damageable/damage(I)V
+public+synthetic org/bukkit/entity/Damageable/damage(ILorg/bukkit/entity/Entity;)V
+public+synthetic org/bukkit/entity/Damageable/getHealth()I
+public+synthetic org/bukkit/entity/Damageable/getMaxHealth()I
+public+synthetic org/bukkit/entity/Damageable/setHealth(I)V
+public+synthetic org/bukkit/entity/Damageable/setMaxHealth(I)V
+
+public+synthetic org/bukkit/entity/LivingEntity/getLastDamage()I
+public+synthetic org/bukkit/entity/LivingEntity/setLastDamage(I)V
+
+public+synthetic org/bukkit/entity/Minecart/getDamage()I
+public+synthetic org/bukkit/entity/Minecart/setDamage(I)V
+
+public+synthetic org/bukkit/entity/Projectile/getShooter()Lorg/bukkit/entity/LivingEntity;
+public+synthetic org/bukkit/entity/Projectile/setShooter(Lorg/bukkit/entity/LivingEntity;)V
+
+public+synthetic org/bukkit/event/entity/EntityDamageEvent/getDamage()I
+public+synthetic org/bukkit/event/entity/EntityDamageEvent/setDamage(I)V
+
+public+synthetic org/bukkit/event/entity/EntityRegainHealthEvent/getAmount()I
+public+synthetic org/bukkit/event/entity/EntityRegainHealthEvent/setAmount(I)V
+
+public+synthetic org/bukkit/event/vehicle/VehicleDamageEvent/getDamage()I
+public+synthetic org/bukkit/event/vehicle/VehicleDamageEvent/setDamage(I)V
+
+# CraftBukkit
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/CraftServer/getOnlinePlayers()[Lorg/bukkit/entity/Player;
+
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftArrow/getShooter()Lorg/bukkit/entity/LivingEntity;
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftArrow/setShooter(Lorg/bukkit/entity/LivingEntity;)V
+
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftEnderDragonPart/damage(I)V
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftEnderDragonPart/damage(ILorg/bukkit/entity/Entity;)V
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftEnderDragonPart/getHealth()I
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftEnderDragonPart/getMaxHealth()I
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftEnderDragonPart/setHealth(I)V
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftEnderDragonPart/setMaxHealth(I)V
+
+
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftFireball/getShooter()Lorg/bukkit/entity/LivingEntity;
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftFireball/setShooter(Lorg/bukkit/entity/LivingEntity;)V
+
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftFish/getShooter()Lorg/bukkit/entity/LivingEntity;
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftFish/setShooter(Lorg/bukkit/entity/LivingEntity;)V
+
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftLivingEntity/damage(I)V
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftLivingEntity/damage(ILorg/bukkit/entity/Entity;)V
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftLivingEntity/getHealth()I
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftLivingEntity/getMaxHealth()I
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftLivingEntity/setHealth(I)V
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftLivingEntity/setMaxHealth(I)V
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftLivingEntity/getLastDamage()I
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftLivingEntity/setLastDamage(I)V
+
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftMinecart/getDamage()I
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftMinecart/setDamage(I)V
+
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftProjectile/getShooter()Lorg/bukkit/entity/LivingEntity;
+public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftProjectile/setShooter(Lorg/bukkit/entity/LivingEntity;)V
+
+# Amy start - MineHQ style packet access
+# SaLib / SwordArt (PotPvP) build scoreboard teams, boss bars and entity metadata packets
+# by hand, which needs these vanilla fields writable. Both the relocated and the
+# pre-relocation class names are listed so the mapping applies no matter which
+# build step consumes it.
+public net/minecraft/server/v1_8_R3/PacketPlayOutScoreboardTeam/a
+public net/minecraft/server/v1_8_R3/PacketPlayOutScoreboardTeam/b
+public net/minecraft/server/v1_8_R3/PacketPlayOutScoreboardTeam/c
+public net/minecraft/server/v1_8_R3/PacketPlayOutScoreboardTeam/d
+public net/minecraft/server/v1_8_R3/PacketPlayOutScoreboardTeam/g
+public net/minecraft/server/v1_8_R3/PacketPlayOutScoreboardTeam/h
+public net/minecraft/server/v1_8_R3/PacketPlayOutScoreboardTeam/i
+public net/minecraft/server/v1_8_R3/PacketPlayOutEntityMetadata/a
+public net/minecraft/server/v1_8_R3/PacketPlayOutEntityMetadata/b
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/a
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/b
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/c
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/d
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/e
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/l
+
+public net/minecraft/server/PacketPlayOutScoreboardTeam/a
+public net/minecraft/server/PacketPlayOutScoreboardTeam/b
+public net/minecraft/server/PacketPlayOutScoreboardTeam/c
+public net/minecraft/server/PacketPlayOutScoreboardTeam/d
+public net/minecraft/server/PacketPlayOutScoreboardTeam/g
+public net/minecraft/server/PacketPlayOutScoreboardTeam/h
+public net/minecraft/server/PacketPlayOutScoreboardTeam/i
+public net/minecraft/server/PacketPlayOutEntityMetadata/a
+public net/minecraft/server/PacketPlayOutEntityMetadata/b
+public net/minecraft/server/PacketPlayOutSpawnEntityLiving/a
+public net/minecraft/server/PacketPlayOutSpawnEntityLiving/b
+public net/minecraft/server/PacketPlayOutSpawnEntityLiving/c
+public net/minecraft/server/PacketPlayOutSpawnEntityLiving/d
+public net/minecraft/server/PacketPlayOutSpawnEntityLiving/e
+public net/minecraft/server/PacketPlayOutSpawnEntityLiving/l
+
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/id
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/type
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/x
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/y
+public net/minecraft/server/v1_8_R3/PacketPlayOutSpawnEntityLiving/z
+# Amy end

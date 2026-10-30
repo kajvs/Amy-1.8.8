@@ -1,0 +1,15 @@
+# Normalize line endings to LF in the repository, so the content Git stores
+# is identical no matter which machine clones it.
+* text=auto eol=lf
+
+# Windows batch files must keep CRLF or cmd.exe mis-parses them.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets - never touch these.
+*.class binary
+*.jar binary
+*.png binary
+*.gif binary
+*.jpg binary
+*.ico binary

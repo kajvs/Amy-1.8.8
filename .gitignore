@@ -1,0 +1,40 @@
+# Eclipse
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+# Deliberately NOT anchored with a leading slash, so it also covers
+# Amy-API/target and Amy-Server/target. Those two modules
+# already have their own .gitignore with an anchored "/target"; this is
+# just belt-and-braces so a future module cannot commit build output.
+target/
+dependency-reduced-pom.xml
+/out/
+
+# Intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Local dev server working directory (used by the "Amy Server" run
+# configuration). Everything is ignored except the EULA marker, so a fresh
+# clone still has a valid working directory.
+/run/*
+!/run/eula.txt
+
+# Crash / debug output
+hs_err_pid*.log
+replay_pid*.log
+
